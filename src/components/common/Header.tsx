@@ -35,7 +35,7 @@ const Header: React.FC = () => {
                                 {i.text}
                             </Link>
                         ))}
-                        <PrimaryButton gsapClass="" hoverClass='' text="Get Started" className="" />
+                        <PrimaryButton gsapClass="" text="Get Started" className="" />
                     </div>
                     <div role="button" aria-label="menu icon" aria-expanded={open} onClick={ToggleOpen} className={`${open ? "shadow-5xl h-6" : ""} w-6 h-4 rounded-full relative sm:hidden flex z-20 cursor-pointer transition_slow`}>
                         <div className="">

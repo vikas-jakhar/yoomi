@@ -26,7 +26,19 @@ const config: Config = {
         },
       },
       dropShadow: {
-        '3xl': "2px 2px 0px black"
+        '3xl': "2px 2px 0px black",
+      },
+      boxShadow: {
+        '3xl': "0px 4px 15px 0px #07678726",
+        '4xl': "0px 26px 27px 0px #0000000A",
+      },
+      fontSize: {
+        'custom-xl': "40px",
+        'custom-2xl': "52px",
+      },
+      lineHeight: {
+        'custom-xl': "44px",
+        'custom-2xl': "57px",
       }
     },
   },

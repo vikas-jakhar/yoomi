@@ -20,7 +20,7 @@ const PrimaryParagraph: React.FC<PrimaryParagraphProps> = ({
         <p
             {...props}
             style={{ fontSize: `clamp(${minFontSize}px, ${sizeReducer}vw, ${maxFontSize}px)` }}
-            className={`${className} font-normal leading-6 sm:leading-7 text-black opacity-70`}
+            className={`${className} font-normal font-inter leading-5 sm:leading-6 text-black opacity-70`}
         >
             {data}
         </p>

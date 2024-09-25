@@ -1,7 +1,6 @@
 interface PrimaryHeadingProps extends React.HTMLAttributes<HTMLHeadingElement> {
     text: string;
-    data: string;
-    title: string;
+    data?: string;
     reduceBelow?: number;
     maxFontSize?: number;
     minFontSize?: number;
@@ -11,9 +10,8 @@ interface PrimaryHeadingProps extends React.HTMLAttributes<HTMLHeadingElement> {
 const PrimaryHeading: React.FC<PrimaryHeadingProps> = ({
     text,
     data,
-    title,
     reduceBelow = 1024,
-    maxFontSize = 45,
+    maxFontSize = 40,
     minFontSize = 25,
     className = '',
     ...props
@@ -24,11 +22,10 @@ const PrimaryHeading: React.FC<PrimaryHeadingProps> = ({
         <h2
             {...props}
             style={{ fontSize: `clamp(${minFontSize}px, ${sizeReducer}vw, ${maxFontSize}px)` }}
-            className={`${className} font-black leading-9 md:leading-10 lg:leading-custom-xl`}
+            className={`${className} font-normal font-plus text-custom-xl leading-custom-xl`}
         >
             {text}
-            <span>{data}</span>
-            <span>{title}</span>
+            {data && <span className="font-plus font-semibold">{data}</span>}
         </h2>
     );
 };
