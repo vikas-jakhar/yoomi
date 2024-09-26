@@ -8,3 +8,25 @@
 .transition_slow {
     transition: all 300ms linear !important;
 }
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    content: '' !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    position: relative !important;
+    width: 34px !important;
+    height: 34px !important;
+    top: 0% !important;
+    left: auto !important;
+    right: auto !important;
+    margin: 0 !important;
+}
+
+.swiper-button-prev svg,
+.swiper-button-next svg {
+    width: auto !important;
+    height: auto !important;
+}

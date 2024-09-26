@@ -14,6 +14,7 @@ const config: Config = {
       },
       colors: {
         'deep-blue': "#076787",
+        'light-blue': "#82B2C2",
       },
       container: {
         center: true,
@@ -33,10 +34,13 @@ const config: Config = {
         '4xl': "0px 26px 27px 0px #0000000A",
       },
       fontSize: {
+        'custom-lg': "32px",
         'custom-xl': "40px",
         'custom-2xl': "52px",
       },
       lineHeight: {
+        'custom-sm': "32px",
+        'custom-lg': "36px",
         'custom-xl': "44px",
         'custom-2xl': "57px",
       }

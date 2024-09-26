@@ -22,7 +22,7 @@ const PrimaryHeading: React.FC<PrimaryHeadingProps> = ({
         <h2
             {...props}
             style={{ fontSize: `clamp(${minFontSize}px, ${sizeReducer}vw, ${maxFontSize}px)` }}
-            className={`${className} font-normal font-plus text-custom-xl leading-custom-xl`}
+            className={`${className} font-normal font-plus leading-custom-sm md:leading-custom-sm md:leading-custom-xl`}
         >
             {text}
             {data && <span className="font-plus font-semibold">{data}</span>}
