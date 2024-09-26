@@ -63,7 +63,7 @@ const Features = () => {
                             {[...Array(4)].map((_, idx) => (
                                 <SwiperSlide key={idx}>
                                     <div className="overflow-hidden group rounded xl:max-h-[331px] lg:max-h-[273px] relative max-h-[181px] sm:max-h-[323px] max-w-[460px] w-full">
-                                        <Image src={`${idx === 0 || idx === 2 ? '/assets/images/webp/swiper-image.png' : '/assets/images/webp/slider-img.png'}`} className='w-full h-full group-hover:scale-105 transition_slow' alt='swiper-image' width={461} height={332} priority />
+                                        <Image src={`${idx === 0 || idx === 2 ? '/assets/images/webp/swiper-image.png' : '/assets/images/webp/slider-img.png'}`} className='w-full h-full pointer-events-none group-hover:scale-105 transition_slow' alt='swiper-image' width={461} height={332} priority />
                                     </div>
                                 </SwiperSlide>
                             ))}

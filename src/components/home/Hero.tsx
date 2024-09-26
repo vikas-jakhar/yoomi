@@ -14,7 +14,7 @@ const Hero = () => {
                     <input type="email" placeholder='Enter Your Email' className='font-medium font-inter placeholder:text-black text-base opacity-70 px-1.5 outline-none max-w-[292px] w-full' required />
                     <PrimaryButton text='Get Started' />
                 </form>
-                <div className="w-[200px] grid z-50 place-items-center h-12 bg-white shadow-3xl fixed right-10 bottom-10">
+                <div className="w-[200px] hidden z-50 place-items-center h-12 bg-white shadow-3xl fixed right-10 bottom-10">
                     <span className='absolute'></span>
                     <span className='font-inter capitalize text-base'>submit successfully</span>
                 </div>
