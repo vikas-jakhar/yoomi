@@ -15,6 +15,8 @@ const config: Config = {
       colors: {
         'deep-blue': "#076787",
         'light-blue': "#82B2C2",
+        'off-gray': "#AFCBD521",
+        'light-green': "#85B6A6",
       },
       container: {
         center: true,
@@ -32,17 +34,20 @@ const config: Config = {
       boxShadow: {
         '3xl': "0px 4px 15px 0px #07678726",
         '4xl': "0px 26px 27px 0px #0000000A",
+        '5xl': "0px 13px 18px 0px #0000000F",
       },
       fontSize: {
         'custom-lg': "32px",
         'custom-xl': "40px",
         'custom-2xl': "52px",
+        'custom-3xl': "60px",
       },
       lineHeight: {
         'custom-sm': "32px",
         'custom-lg': "36px",
         'custom-xl': "44px",
         'custom-2xl': "57px",
+        'custom-3xl': "66px",
       }
     },
   },

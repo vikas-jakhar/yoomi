@@ -1,6 +1,9 @@
 import Features from "@/components/home/Features";
 import Hero from "@/components/home/Hero";
+import Partners from "@/components/home/Partners";
+import Platform from "@/components/home/Platform";
 import Report from "@/components/home/Report";
+import Sports from "@/components/home/Sports";
 import Tracking from "@/components/home/Tracking";
 
 export default function Home() {
@@ -10,6 +13,9 @@ export default function Home() {
       <Features />
       <Tracking />
       <Report />
+      <Platform />
+      <Partners />
+      <Sports />
     </div>
   );
 }

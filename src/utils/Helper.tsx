@@ -14,3 +14,15 @@ export const TRACKING_DATA = [
     { text: "Supported by the most accurate motion-tracking model designed for rehabilitation, Yoomi Vision" },
     { text: "Requires no custom hardware, sensors, or equipment" },
 ]
+export const PLATFORM_DATA = [
+    { number: "50%", text: "Reduction in Pain" },
+    { number: "90%", text: "Increase In-Patient Satisfaction" },
+    { number: "60%", text: "Faster Recovery" },
+]
+export const IMAGES_DATA = [
+    { img: "/assets/images/webp/nih-img.png" },
+    { img: "/assets/images/webp/lvx-img.png" },
+    { img: "/assets/images/webp/rwj-img.png" },
+    { img: "/assets/images/webp/ff-img.png" },
+    { img: "/assets/images/webp/cu-img.png" },
+]
