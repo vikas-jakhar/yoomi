@@ -28,7 +28,7 @@ const News = () => {
                             <PrimaryButton text='Get Started' />
                         </form>
                     </div>
-                    <Image src='/assets/images/webp/men-img.webp' className='sm:max-w-[300px] max-w-[250px] z-10 w-full top-1/2 -translate-y-1/2 absolute right-2 sm:right-[103px] opacity-70 lg:opacity-100' alt='men-img' width={601} height={644} priority />
+                    <Image src='/assets/images/webp/men-img.webp' className='sm:max-w-[300px] max-w-[250px] z-[1] w-full top-1/2 -translate-y-1/2 absolute right-2 sm:right-[103px] opacity-70 lg:opacity-100' alt='men-img' width={601} height={644} priority />
                     <Image src='/assets/images/webp/sign-ellipse.webp' className='absolute bottom-0 right-0' width={200} height={170} alt='ellipse' priority />
                 </div>
                 <div className={`w-[200px] z-[700] place-items-center transition_slow h-12 bg-white shadow-3xl fixed bottom-10 flex justify-center items-center ${isSubmitted ? "right-10" : "-right-full"}`}>
