@@ -5,7 +5,7 @@ export const metadata = {
   description: "Introductions that save you money.",
   metadataBase: new URL("https://yoomi-01.vercel.app/"),
   openGraph: {
-    images: "/meta-img.",
+    images: "/meta-img.webp",
   },
 };
 interface RootLayoutProps {
