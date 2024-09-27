@@ -50,12 +50,12 @@ const Hero: React.FC<HeroProps> = ({ isFormVisible, setFormVisible, formRef }) =
                     <span className='font-inter capitalize text-base'>Submit successfully</span>
                 </div>
                 {isFormVisible && (
-                    <div ref={formRef} className="max-w-[500px] w-full z-50 px-5 py-10 bg-white rounded-lg shadow-3xl fixed top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">
+                    <div ref={formRef} className="max-w-[500px] w-full z-50 px-5 py-10 border-2 border-deep-blue bg-white rounded-lg shadow-3xl fixed top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">
                         <form id='emailForm' onSubmit={handleSubmit} method="get" className='mx-auto w-full flex flex-col gap-5 justify-between items-center'>
                             <input
                                 type="email"
                                 placeholder='Enter Your Email'
-                                className='font-medium font-inter placeholder:text-black border-2 rounded text-base opacity-70 p-2 outline-none max-w-[392px] w-full'
+                                className='font-medium font-inter placeholder:text-black border-2 border-deep-blue rounded text-base opacity-70 p-2 outline-none max-w-[392px] w-full'
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
                                 required
@@ -63,7 +63,7 @@ const Hero: React.FC<HeroProps> = ({ isFormVisible, setFormVisible, formRef }) =
                             <input
                                 type='password'
                                 placeholder='Enter Your Password'
-                                className='font-medium font-inter placeholder:text-black border-2 rounded text-base opacity-70 p-2 outline-none max-w-[392px] w-full'
+                                className='font-medium font-inter placeholder:text-black border-2 border-deep-blue rounded text-base opacity-70 p-2 outline-none max-w-[392px] w-full'
                                 value={password}
                                 onChange={(e) => setPassword(e.target.value)}
                                 required

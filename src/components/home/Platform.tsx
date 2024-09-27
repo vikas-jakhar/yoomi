@@ -76,7 +76,7 @@ const Platform = () => {
                                     <p data-aos='zoom-in' className="font-inter font-semibold text-custom-3xl leading-custom-3xl text-white">
                                         {percentages[idx]}%
                                     </p>
-                                    <p data-aos='zoom-in' className="font-inter font-normal text-white opacity-80 text-xl text-center max-w-[148px]">
+                                    <p data-aos='zoom-in' className={`font-inter font-normal text-white opacity-80 text-xl text-center ${idx === 1 ? "max-w-[184px]":"max-w-[150px]"}`}>
                                         {item.text}
                                     </p>
                                     <Image data-aos='zoom-in' src='/assets/images/webp/white-ellpise.webp' className='w-[98px] h-[88px] absolute bottom-0 right-0' alt='ellipse' width={196} height={174} priority />
