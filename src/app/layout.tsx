@@ -3,9 +3,9 @@ import { ReactNode } from "react";
 export const metadata = {
   title: "yoomi",
   description: "Introductions that save you money.",
-  // metadataBase: new URL("/"),
+  metadataBase: new URL("https://yoomi-01.vercel.app/"),
   openGraph: {
-    images: "/meta-img",
+    images: "/meta-img.",
   },
 };
 interface RootLayoutProps {
