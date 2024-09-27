@@ -9,8 +9,8 @@ const Footer = () => {
             <div className="container lg:pt-24 sm:pt-20 pt-14 mt-5">
                 <div className="flex md:flex-row flex-col justify-between">
                     <div className="max-w-[277px] w-full">
-                        <Link href="/" className="w-fit relative z-20 group flex">
-                            <Image src="/assets/images/webp/footer-icon.webp" className="pointer-events-none max-w-[192px] w-full" width={238} height={61} alt="logo" priority />
+                        <Link href="/" className="w-fit group flex">
+                            <Image src='/assets/images/webp/footer-icon.webp' className="pointer-events-none max-w-[192px] w-full" width={238} height={61} alt="logo" priority />
                         </Link>
                         <p className='my-7 font-inter font-light text-sm text-white'>I&apos;m a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” </p>
                         <Link href='mailto:contact@yoomi.com' className='font-inter font-light text-base transition_slow group hover:text-deep-blue text-white flex items-center gap-[18px]'><Icon iconName='emailIcon' />contact@yoomi.com</Link>
