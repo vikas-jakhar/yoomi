@@ -45,21 +45,9 @@ const ScrollToTop: React.FC = () => {
                 right: isLargeScreen ? 'calc((100vw - 1920px) / 2 + 30px)' : '1.5%',
             }}
         >
-            <span className="sm:text-sm text-xs md:text-base text-offBlack font-bold group-hover:opacity-0 duration-300 ease-linear font-rubik">
+            <span className="sm:text-sm text-xs md:text-base font-bold duration-300 ease-linear font-inter">
                 {scrollPercent}%
             </span>
-            {/* <Image
-                loading="lazy"
-                src="/assets/images/svg/scroll-to-top.svg"
-                alt="arrow"
-                width={100}
-                height={100}
-                sizes="(max-width: 640px) 50vw, 
-                       (max-width: 768px) 33vw,   
-                       (max-width: 1024px) 25vw, 
-                       100px"
-                className="absolute -z-[5] duration-300 ease-linear opacity-0 group-hover:opacity-100 hover:z-[1] w-1/2 h-auto"
-            /> */}
         </button>
     );
 };

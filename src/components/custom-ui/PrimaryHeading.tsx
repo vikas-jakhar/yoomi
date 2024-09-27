@@ -19,7 +19,7 @@ const PrimaryHeading: React.FC<PrimaryHeadingProps> = ({
     const sizeReducer = (100 / reduceBelow) * maxFontSize;
 
     return (
-        <h2
+        <h2 data-aos='zoom-in'
             {...props}
             style={{ fontSize: `clamp(${minFontSize}px, ${sizeReducer}vw, ${maxFontSize}px)` }}
             className={`${className} font-normal font-plus leading-custom-sm md:leading-custom-sm md:leading-custom-xl`}

@@ -17,7 +17,7 @@ const PrimaryParagraph: React.FC<PrimaryParagraphProps> = ({
     const sizeReducer = (100 / reduceBelow) * maxFontSize;
 
     return (
-        <p
+        <p data-aos='zoom-in'
             {...props}
             style={{ fontSize: `clamp(${minFontSize}px, ${sizeReducer}vw, ${maxFontSize}px)` }}
             className={`${className} font-normal font-inter leading-5 sm:leading-6 text-black opacity-70`}

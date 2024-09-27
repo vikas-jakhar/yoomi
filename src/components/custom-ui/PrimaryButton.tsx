@@ -7,7 +7,7 @@ interface PrimaryButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
 const PrimaryButton: React.FC<PrimaryButtonProps> = ({ text, hoverClass, gsapClass = '', className = '', ...props }) => {
     return (
         <div className={`${gsapClass} flex`}>
-            <button
+            <button data-aos='zoom-in'
                 className={`overflow-hidden group rounded relative z-[1] transition_slow bg-deep-blue px-4 py-2.5 ${className}`}
                 {...props}
             >

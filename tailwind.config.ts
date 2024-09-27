@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'hero-layer': "url('/assets/images/webp/hero-layer.png')",
+      },
       fontFamily: {
         'inter': "'Inter', sans-serif",
         'plus': "'Plus Jakarta Sans', sans-serif",
@@ -15,8 +18,11 @@ const config: Config = {
       colors: {
         'deep-blue': "#076787",
         'light-blue': "#82B2C2",
+        'off-white': "#FFFFFF33",
         'off-gray': "#AFCBD521",
+        'light-gray': "#808080",
         'light-green': "#85B6A6",
+        'dark-blue': "#110163",
       },
       container: {
         center: true,
@@ -30,11 +36,13 @@ const config: Config = {
       },
       dropShadow: {
         '3xl': "2px 2px 0px black",
+        '4xl': "2px 2px 0px #076787",
       },
       boxShadow: {
         '3xl': "0px 4px 15px 0px #07678726",
         '4xl': "0px 26px 27px 0px #0000000A",
         '5xl': "0px 13px 18px 0px #0000000F",
+        '6xl': "0px 4px 15px 0px #81488E26",
       },
       fontSize: {
         'custom-lg': "32px",

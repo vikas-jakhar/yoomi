@@ -16,9 +16,9 @@ const Sports = () => {
     return (
         <div className="py-3.5">
             <div className="container">
-                <p className="mx-auto w-fit text-deep-blue font-inter uppercase font-medium text-sm sm:text-base">Know More</p>
+                <p data-aos='zoom-in' className="mx-auto w-fit text-deep-blue font-inter uppercase font-medium text-sm sm:text-base">Know More</p>
                 <PrimaryHeading text="And Used by the Biggest " data="Figures in Sports and Rehab" className="w-fit mx-auto max-w-[615px] text-center mt-4 lg:mb-14 md:mb-10 mb-8" />
-                <div className='max-w-[946px] w-full mx-auto'>
+                <div data-aos='zoom-in' className='max-w-[946px] w-full mx-auto'>
                     <Swiper
                         loop={true}
                         spaceBetween={10}
@@ -35,7 +35,7 @@ const Sports = () => {
                             </SwiperSlide>
                         ))}
                     </Swiper>
-                    <div className="max-w-[776px] mx-auto md:mt-5 lg:pt-0.5">
+                    <div data-aos='zoom-in' className="max-w-[776px] mx-auto md:mt-5 lg:pt-0.5">
                         <Swiper
                             onSwiper={setThumbsSwiper}
                             loop={true}

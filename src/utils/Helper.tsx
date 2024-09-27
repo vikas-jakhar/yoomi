@@ -26,3 +26,24 @@ export const IMAGES_DATA = [
     { img: "/assets/images/webp/ff-img.png" },
     { img: "/assets/images/webp/cu-img.png" },
 ]
+export const FOOTER_DATA = [
+    {
+        heading: "About Us", items: [
+            { subHeading: "Meet the Team", url: "" },
+            { subHeading: "Our Mission", url: "" },
+            { subHeading: "Our Vision", url: "" },
+        ]
+    },
+    {
+        heading: "Contact Us", items: [
+            { subHeading: "Twitter", url: "" },
+            { subHeading: "Instagram", url: "" },
+            { subHeading: "Linkedin", url: "" },
+        ]
+    },
+    {
+        heading: "News", items: [
+            { subHeading: "Recent ", url: "" },
+        ]
+    },
+]
