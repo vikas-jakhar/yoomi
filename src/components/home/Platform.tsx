@@ -15,10 +15,8 @@ const Platform = () => {
     const [percentages, setPercentages] = useState<number[]>(PLATFORM_DATA.map(() => 0));
     const sectionRef = useRef<HTMLDivElement | null>(null);
     const [hasAnimated, setHasAnimated] = useState<boolean>(false);
-
     useEffect(() => {
-        const sectionElement = sectionRef.current; // Store the ref value locally to avoid issues
-
+        const sectionElement = sectionRef.current; 
         const observer = new IntersectionObserver(
             (entries) => {
                 entries.forEach((entry) => {
@@ -29,7 +27,6 @@ const Platform = () => {
                             const increment = 1;
                             const duration = 2000;
                             const stepTime = Math.abs(Math.floor(duration / (end - start)));
-
                             const timer = setInterval(() => {
                                 start += increment;
                                 setPercentages((prevPercentages) => {
@@ -50,11 +47,9 @@ const Platform = () => {
             },
             { threshold: 0.5 }
         );
-
         if (sectionElement) {
             observer.observe(sectionElement);
         }
-
         return () => {
             if (sectionElement) {
                 observer.unobserve(sectionElement);
@@ -71,7 +66,7 @@ const Platform = () => {
                 <div className="md:mt-14 sm:pt-3 md:pt-1 max-w-[861px] w-full flex flex-row flex-wrap md:flex-nowrap justify-center md:justify-between mx-auto md:gap-4">
                     {PLATFORM_DATA.map((item: PlatformItem, idx: number) => (
                         <Tilt key={idx} className="sm:w-1/2 w-full md:w-full">
-                            <div className="flex justify-center px-3 mt-6 w-full md:px-0">
+                            <div className="flex justify-center px-3 mt-6 md:mt-0 w-full md:px-0">
                                 <div data-aos='zoom-in' className={`max-w-[268px] relative rounded w-full min-h-[207px] p-5 flex flex-col items-center justify-center ${idx === 0 ? "bg-light-green" : idx === 1 ? "bg-light-blue" : "bg-deep-blue"}`}>
                                     <p data-aos='zoom-in' className="font-inter font-semibold text-custom-3xl leading-custom-3xl text-white">
                                         {percentages[idx]}%

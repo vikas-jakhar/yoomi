@@ -12,12 +12,12 @@ import PrimaryButton from '../custom-ui/PrimaryButton';
 
 const Features = () => {
     return (
-        <div className='lg:py-24 -mt-10 lg:mt-0 sm:py-20 py-16' id='features'>
+        <div className='lg:py-24 -mt-10 lg:-mt-6 sm:py-20 py-16' id='features'>
             <div className="container relative z-10">
                 <p data-aos='zoom-in' className='mx-auto w-fit text-deep-blue font-inter uppercase font-medium text-sm sm:text-base'>Features</p>
                 <PrimaryHeading text='Explore Our ' data='Amazing Features' className='w-fit mx-auto text-center mt-2' />
                 <PrimaryParagraph className='max-w-[710px] mx-auto text-center mt-2.5' data='Yoomi is more than just a regular remote monitoring solution. Our product supports patients and providers through every step of the rehabilitation process' />
-                <div className="lg:mt-14 flex flex-col lg:flex-row pl-2 sm:pl-7 gap-5 justify-between items-center shadow-4xl rounded-[32px] bg-white w-full py-10 sm:py-[61px]">
+                <div className="lg:mt-2 flex flex-col lg:flex-row pl-2 sm:pl-7 gap-5 justify-between items-center shadow-4xl rounded-[32px] bg-white w-full py-10 sm:py-[61px]">
                     <div className="lg:max-w-[468px] w-full ml-0.5 pr-2 sm:pr-7 lg:pr-0">
                         <p data-aos='zoom-in' className='text-deep-blue font-inter uppercase font-medium text-sm sm:text-base'>Library</p>
                         <p data-aos='zoom-in' className='font-plus font-normal text-xl sm:text-custom-lg mt-2 mb-5'>Extensive Exercise <span className='font-plus font-semibold'>Library</span></p>
