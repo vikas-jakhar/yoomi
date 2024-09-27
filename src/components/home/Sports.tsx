@@ -30,7 +30,7 @@ const Sports = () => {
                         {[...Array(4)].map((_, idx) => (
                             <SwiperSlide key={idx}>
                                 <div className="max-w-[946px] rounded-2xl w-full overflow-hidden">
-                                    <Image src={`${idx === 0 ? "/assets/images/webp/sports-img.png" : "/assets/images/webp/swiper-women-img.png"}`} className='w-full max-h-[156px] sm:max-h-[296px] md:max-h-[360px] lg:max-h-[473px] h-full' alt='sports' width={1892} height={946} priority />
+                                    <Image src={`${idx === 0 ? "/assets/images/webp/sports-img.webp" : "/assets/images/webp/swiper-women-img.webp"}`} className='w-full max-h-[156px] sm:max-h-[296px] md:max-h-[360px] lg:max-h-[473px] h-full' alt='sports' width={1892} height={946} priority />
                                 </div>
                             </SwiperSlide>
                         ))}
@@ -59,7 +59,7 @@ const Sports = () => {
                             {[...Array(4)].map((_, idx) => (
                                 <SwiperSlide key={idx}>
                                     <div className="sm:max-w-[152px] rounded w-full overflow-hidden hover:scale-110 transition_slow cursor-pointer">
-                                        <Image src={`${idx === 0 ? "/assets/images/webp/sports-img.png" : "/assets/images/webp/swiper-women-img.png"}`} className='w-full min-h-[70px] sm:min-h-[114px] h-full' alt='sports' width={1892} height={946} priority />
+                                        <Image src={`${idx === 0 ? "/assets/images/webp/sports-img.webp" : "/assets/images/webp/swiper-women-img.webp"}`} className='w-full min-h-[70px] sm:min-h-[114px] h-full' alt='sports' width={1892} height={946} priority />
                                     </div>
                                 </SwiperSlide>
                             ))}

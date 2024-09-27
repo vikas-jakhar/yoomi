@@ -6,7 +6,7 @@ import Link from 'next/link';
 import PrimaryButton from '../custom-ui/PrimaryButton';
 
 interface HeaderProps {
-    toggleFormVisibility: () => void; 
+    toggleFormVisibility: () => void;
 }
 const Header: React.FC<HeaderProps> = ({ toggleFormVisibility }) => {
     const [open, setOpen] = useState(false);
@@ -23,7 +23,7 @@ const Header: React.FC<HeaderProps> = ({ toggleFormVisibility }) => {
                 document.body.classList.remove("overflow-hidden");
             }
         };
-        handleOverflow(); 
+        handleOverflow();
         window.addEventListener("resize", handleOverflow);
         return () => {
             window.removeEventListener("resize", handleOverflow);
@@ -36,7 +36,7 @@ const Header: React.FC<HeaderProps> = ({ toggleFormVisibility }) => {
                 <nav className="flex items-center justify-between">
                     <Link href="/" className="w-fit relative z-20 group">
                         <Image
-                            src="/assets/images/webp/logo.png"
+                            src="/assets/images/webp/logo.webp"
                             alt="logo"
                             className="pointer-events-none transition_slow group-hover:drop-shadow-3xl navBar max-w-[118px] w-full"
                             width={238}

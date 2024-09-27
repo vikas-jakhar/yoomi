@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-layer': "url('/assets/images/webp/hero-layer.png')",
+        'hero-layer': "url('/assets/images/webp/hero-layer.webp')",
       },
       fontFamily: {
         'inter': "'Inter', sans-serif",

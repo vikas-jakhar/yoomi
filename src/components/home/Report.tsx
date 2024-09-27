@@ -15,11 +15,11 @@ const Report = () => {
                         <PrimaryButton className='lg:mt-9 sm:mt-8 mt-5 lg:px-5 lg:py-3.5' text='View the Matrics' />
                     </div>
                     <div className="max-w-[619px] w-full flex pt-12 sm:pt-14 pb-4 justify-end items-center relative">
-                        <Image data-aos='zoom-in' src='/assets/images/webp/table-img.png' className='max-w-[570px] w-full pointer-events-none' width={1207} height={817} alt='table' priority />
-                        <Image data-aos='zoom-in' src='/assets/images/webp/week-table-img.png' className='sm:max-w-[257px] max-w-[150px] w-full absolute -bottom-5 sm:-bottom-12 z-10 right-2 sm:right-5 pointer-events-none' width={257} height={255} alt='week-table-img' priority />
-                        <Image data-aos='zoom-in' src='/assets/images/webp/status-img.png' className='sm:max-w-[314px] max-w-[180px] w-full absolute top-0 z-10 left-0 pointer-events-none' width={626} height={331} alt='status-img' priority />
+                        <Image data-aos='zoom-in' src='/assets/images/webp/table-img.webp' className='max-w-[570px] w-full pointer-events-none' width={1207} height={817} alt='table' priority />
+                        <Image data-aos='zoom-in' src='/assets/images/webp/week-table-img.webp' className='sm:max-w-[257px] max-w-[150px] w-full absolute -bottom-5 sm:-bottom-12 z-10 right-2 sm:right-5 pointer-events-none' width={257} height={255} alt='week-table-img' priority />
+                        <Image data-aos='zoom-in' src='/assets/images/webp/status-img.webp' className='sm:max-w-[314px] max-w-[180px] w-full absolute top-0 z-10 left-0 pointer-events-none' width={626} height={331} alt='status-img' priority />
                     </div>
-                    <Image src='/assets/images/webp/ellipse-right.png' className='absolute -bottom-8 -left-8' width={159} height={141} alt='ellipse' priority />
+                    <Image src='/assets/images/webp/ellipse-right.webp' className='absolute -bottom-8 -left-8' width={159} height={141} alt='ellipse' priority />
                 </div>
             </div>
         </div>

@@ -11,9 +11,9 @@ const Tracking = () => {
                 <div data-aos='zoom-in' className="justify-between flex-col-reverse lg:flex-row gap-10 flex items-center shadow-4xl rounded-[32px] bg-white w-full py-5
                  md:py-10 lg:py-14 px-2.5 sm:px-[18px]">
                     <div className="max-w-[552px] w-full flex justify-center items-end relative ml-3.5">
-                        <Image data-aos='zoom-in' src='/assets/images/webp/scapular.png' className='max-w-[534px] w-full mt-5 pointer-events-none' width={1066} height={643} alt='scapular' priority />
-                        <Image data-aos='zoom-in' src='/assets/images/webp/circle-img.png' className='sm:max-w-[120px] max-w-[70px] w-full absolute top-0 z-10 right-0 pointer-events-none' width={243} height={243} alt='circle-img' priority />
-                        <Image data-aos='zoom-in' src='/assets/images/webp/women-img.png' className='sm:max-w-[259px] max-w-[150px] w-full absolute -top-3 sm:-top-5 z-10 -left-5 pointer-events-none' width={518} height={334} alt='circle-img' priority />
+                        <Image data-aos='zoom-in' src='/assets/images/webp/scapular.webp' className='max-w-[534px] w-full mt-5 pointer-events-none' width={1066} height={643} alt='scapular' priority />
+                        <Image data-aos='zoom-in' src='/assets/images/webp/circle-img.webp' className='sm:max-w-[120px] max-w-[70px] w-full absolute top-0 z-10 right-0 pointer-events-none' width={243} height={243} alt='circle-img' priority />
+                        <Image data-aos='zoom-in' src='/assets/images/webp/women-img.webp' className='sm:max-w-[259px] max-w-[150px] w-full absolute -top-3 sm:-top-5 z-10 -left-5 pointer-events-none' width={518} height={334} alt='circle-img' priority />
                     </div>
                     <div className="lg:max-w-[468px] w-full">
                         <p data-aos='zoom-in' className='text-deep-blue font-inter uppercase font-medium text-sm sm:text-base'>TRACKING</p>
@@ -29,8 +29,8 @@ const Tracking = () => {
                     </div>
                 </div>
             </div>
-            <Image src='/assets/images/webp/green-ellipse.png' className='absolute -top-1/4 left-0' width={303} height={245} alt='ellipse' priority />
-            <Image src='/assets/images/webp/ellipse-right.png' className='absolute -bottom-1/4 right-0' width={303} height={245} alt='ellipse' priority />
+            <Image src='/assets/images/webp/green-ellipse.webp' className='absolute -top-1/4 left-0' width={303} height={245} alt='ellipse' priority />
+            <Image src='/assets/images/webp/ellipse-right.webp' className='absolute -bottom-1/4 right-0' width={303} height={245} alt='ellipse' priority />
         </div>
     )
 }

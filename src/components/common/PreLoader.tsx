@@ -29,7 +29,7 @@ const PreLoader: React.FC = () => {
             <div className={`relative w-[250px] z-[200] animate-bounce flex flex-col sm:flex-row gap-10 items-center justify-center ${hide ? 'opacity-0' : 'opacity-100'}`}>
                 <div className='items-center justify-end relative w-full flex mx-auto'>
                     <Image
-                        src="/assets/images/webp/sign-logo.png"
+                        src="/assets/images/webp/sign-logo.webp"
                         alt='logo'
                         width={106}
                         height={200}
@@ -42,6 +42,6 @@ const PreLoader: React.FC = () => {
             </div>
         </div>
     );
-}      
+}
 
 export default PreLoader;

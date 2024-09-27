@@ -20,11 +20,11 @@ export const PLATFORM_DATA = [
     { number: "60%", text: "Faster Recovery" },
 ]
 export const IMAGES_DATA = [
-    { img: "/assets/images/webp/nih-img.png" },
-    { img: "/assets/images/webp/lvx-img.png" },
-    { img: "/assets/images/webp/rwj-img.png" },
-    { img: "/assets/images/webp/ff-img.png" },
-    { img: "/assets/images/webp/cu-img.png" },
+    { img: "/assets/images/webp/nih-img.webp" },
+    { img: "/assets/images/webp/lvx-img.webp" },
+    { img: "/assets/images/webp/rwj-img.webp" },
+    { img: "/assets/images/webp/ff-img.webp" },
+    { img: "/assets/images/webp/cu-img.webp" },
 ]
 export const FOOTER_DATA = [
     {
