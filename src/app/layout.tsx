@@ -3,7 +3,7 @@ import { ReactNode } from "react";
 export const metadata = {
   title: "yoomi",
   description: "Introductions that save you money.",
-  metadataBase: new URL("https://yoomi-01.vercel.app/"),
+  metadataBase: new URL("https://yoomi-05.vercel.app/"),
   openGraph: {
     images: "/meta-img.webp",
   },
