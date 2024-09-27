@@ -1,7 +1,7 @@
 export const HEADER_DATA = [
-    { text: "About Us", url: "/" },
-    { text: "News", url: "/" },
-    { text: "Contact Us", url: "/" },
+    { text: "About Us", url: "/#report" },
+    { text: "News", url: "#news" },
+    { text: "Contact Us", url: "/#features" },
 ]
 export const LIBRARY_DATA = [
     { text: "Utilize Yoomi’s HEP templates to quickly create and assign programs to your patients " },
@@ -29,21 +29,21 @@ export const IMAGES_DATA = [
 export const FOOTER_DATA = [
     {
         heading: "About Us", items: [
-            { subHeading: "Meet the Team", url: "" },
-            { subHeading: "Our Mission", url: "" },
-            { subHeading: "Our Vision", url: "" },
+            { subHeading: "Meet the Team", url: "/#report" },
+            { subHeading: "Our Mission", url: "#news" },
+            { subHeading: "Our Vision", url: "/#features" },
         ]
     },
     {
         heading: "Contact Us", items: [
-            { subHeading: "Twitter", url: "" },
-            { subHeading: "Instagram", url: "" },
-            { subHeading: "Linkedin", url: "" },
+            { subHeading: "Twitter", url: "https://x.com/login" },
+            { subHeading: "Instagram", url: "https://www.instagram.com/accounts/login/?hl=en" },
+            { subHeading: "Linkedin", url: "https://www.linkedin.com/login" },
         ]
     },
     {
         heading: "News", items: [
-            { subHeading: "Recent ", url: "" },
+            { subHeading: "Recent ", url: "/#features" },
         ]
     },
 ]

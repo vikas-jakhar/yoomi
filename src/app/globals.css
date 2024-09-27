@@ -5,6 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    scroll-behavior: smooth;
+}
+
 .transition_slow {
     transition: all 300ms linear !important;
 }

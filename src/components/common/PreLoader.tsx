@@ -33,7 +33,7 @@ const PreLoader: React.FC = () => {
                         alt='logo'
                         width={106}
                         height={200}
-                        className='w-full pointer-events-none z-50 max-w-[300px] absolute top-0'
+                        className='w-full pointer-events-none z-50 max-w-[300px] absolute top-0 animate-bounce'
                         priority
                     />
                 </div>

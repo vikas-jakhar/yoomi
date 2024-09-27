@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, RefObject } from 'react';
 import PrimaryButton from '../custom-ui/PrimaryButton';
-
+import Image from 'next/image';
 interface HeroProps {
     isFormVisible: boolean;
     setFormVisible: React.Dispatch<React.SetStateAction<boolean>>;
@@ -26,8 +26,13 @@ const Hero: React.FC<HeroProps> = ({ isFormVisible, setFormVisible, formRef }) =
     return (
         <div className='pt-px pb-20'>
             <div className="container relative z-[1] pb-20 pt-8 sm:pt-16 lg:pt-24 mt-0.5">
-                <h2 className='font-plus max-w-[823px] w-full mx-auto text-center text-3xl sm:text-4xl md:text-custom-xl lg:text-custom-2xl md:leading-custom-xl lg:leading-custom-2xl font-extrabold'>
-                    Next Generation <span className='font-plus font-normal'>Patient Engagement and RTM Solution✨</span>
+                <h2 className='font-plus max-w-[823px] w-full mx-auto text-center relative text-3xl sm:text-4xl md:text-custom-xl lg:text-custom-2xl md:leading-custom-xl lg:leading-custom-2xl font-extrabold'>
+                    Next Generation <span className='font-plus font-normal'>Patient Engagement and RTM Solution</span>
+                    <Image alt="logo" src='/assets/images/webp/star-icon.webp'
+                        className="pointer-events-none absolute bottom-0 hidden lg:flex lg:-right-2"
+                        width={40}
+                        height={40}
+                        priority />
                 </h2>
                 <p className='w-fit mx-auto text-center font-inter font-normal text-lg sm:text-2xl opacity-70 mt-4'>Industry leading AI motion-tracking technology</p>
                 <form id='fromEmail' onSubmit={handleSubmit} method="get" className='max-w-[428px] mx-auto w-full p-1.5 bg-white rounded flex justify-between items-center mt-7 lg:mt-14 shadow-3xl'>

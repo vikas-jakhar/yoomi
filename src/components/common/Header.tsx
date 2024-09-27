@@ -34,11 +34,11 @@ const Header: React.FC<HeaderProps> = ({ toggleFormVisibility }) => {
         <div className="sm:pb-1.5 pb-3.5 pt-[26px]">
             <div className="container">
                 <nav className="flex items-center justify-between">
-                    <Link href="/" className="w-fit relative z-20 group">
+                    <Link href="/" className="w-fit relative z-20">
                         <Image
                             src="/assets/images/webp/logo.webp"
                             alt="logo"
-                            className="pointer-events-none transition_slow group-hover:drop-shadow-3xl navBar max-w-[118px] w-full"
+                            className="pointer-events-none navBar max-w-[118px] w-full"
                             width={238}
                             height={61}
                             priority

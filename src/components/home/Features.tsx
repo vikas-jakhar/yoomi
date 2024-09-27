@@ -12,7 +12,7 @@ import PrimaryButton from '../custom-ui/PrimaryButton';
 
 const Features = () => {
     return (
-        <div className='lg:py-24 -mt-10 lg:mt-0 sm:py-20 py-16'>
+        <div className='lg:py-24 -mt-10 lg:mt-0 sm:py-20 py-16' id='features'>
             <div className="container relative z-10">
                 <p data-aos='zoom-in' className='mx-auto w-fit text-deep-blue font-inter uppercase font-medium text-sm sm:text-base'>Features</p>
                 <PrimaryHeading text='Explore Our ' data='Amazing Features' className='w-fit mx-auto text-center mt-2' />

@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Report = () => {
     return (
-        <div className='lg:py-24 sm:py-20 py-16'>
+        <div className='lg:py-24 sm:py-20 py-16' id='report'>
             <div className="container">
                 <div data-aos='zoom-in' className="justify-between overflow-hidden relative flex-col lg:flex-row gap-10 flex items-center shadow-4xl rounded-[32px] bg-white w-full py-5
                  md:py-10 lg:py-12 px-2.5 sm:px-[18px]">

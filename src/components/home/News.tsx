@@ -15,7 +15,7 @@ const News = () => {
         }, 3000);
     };
     return (
-        <div className='sm:pt-12 pt-5 pb-px relative z-10'>
+        <div className='sm:pt-12 pt-5 pb-px relative z-10' id='news'>
             <div className="container">
                 <div data-aos='zoom-in' className="bg-deep-blue w-full rounded-[32px] p-5 sm:p-16 md:p-20 relative">
                     <div className="ml-1 relative z-10">
