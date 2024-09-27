@@ -1,7 +1,6 @@
 "use client";
 import React, { useState, RefObject } from 'react';
 import PrimaryButton from '../custom-ui/PrimaryButton';
-import Image from 'next/image';
 
 interface HeroProps {
     isFormVisible: boolean;

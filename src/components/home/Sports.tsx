@@ -4,9 +4,8 @@ import { Swiper as SwiperType } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/free-mode';
-import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
-import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
+import { FreeMode, Thumbs } from 'swiper/modules';
 import Image from 'next/image';
 import PrimaryHeading from '../custom-ui/PrimaryHeading';
 
@@ -22,7 +21,6 @@ const Sports = () => {
                     <Swiper
                         loop={true}
                         spaceBetween={10}
-                        navigation={false}
                         thumbs={{ swiper: thumbsSwiper }}
                         modules={[FreeMode, Thumbs]}
                         className="mySwiper2"
