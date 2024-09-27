@@ -22,7 +22,7 @@ const Footer = () => {
                                 <h2 className='font-inter font-semibold text-white text-sm'>{data.heading}</h2>
                                 <div className="flex flex-col">
                                     {data.items.map((i, index) => (
-                                        <Link key={index} href={i.url} target={idx === 1 ? "_blank" : ""} className='font-inter w-fit font-normal text-white mt-[18px] transition_slow hover:text-deep-blue text-sm'>{i.subHeading}</Link>
+                                        <Link key={index} href={i.url} target={idx === 1 ? "_blank" : undefined} rel={idx === 1 ? "noopener noreferrer" : undefined} className='font-inter w-fit font-normal text-white mt-[18px] transition_slow hover:text-deep-blue text-sm'>{i.subHeading}</Link>
                                     ))}
                                 </div>
                             </div>

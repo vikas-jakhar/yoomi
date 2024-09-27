@@ -40,7 +40,7 @@
 }
 
 .swiper-slide-thumb-active div {
-    transform: scale(1.2);
+    transform: scale(1.25) !important;
 }
 
 ::-webkit-scrollbar {

@@ -49,12 +49,12 @@ const Sports = () => {
                                     spaceBetween: 15,
                                 },
                                 640: {
-                                    slidesPerView: 4,
+                                    slidesPerView: 3.9,
                                     spaceBetween: 22,
                                 },
                             }}
                         >
-                            {[...Array(4)].map((_, idx) => (
+                            {[...Array(6)].map((_, idx) => (
                                 <SwiperSlide key={idx}>
                                     <div className="sm:max-w-[152px] rounded w-full overflow-hidden hover:scale-110 transition_slow cursor-pointer">
                                         <Image src={`${idx === 0 ? "/assets/images/webp/sports-img.webp" : "/assets/images/webp/swiper-women-img.webp"}`} className='w-full min-h-[70px] sm:min-h-[114px] h-full' alt='sports' width={1892} height={946} priority />
