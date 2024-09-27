@@ -15,7 +15,10 @@ const Platform = () => {
     const [percentages, setPercentages] = useState<number[]>(PLATFORM_DATA.map(() => 0));
     const sectionRef = useRef<HTMLDivElement | null>(null);
     const [hasAnimated, setHasAnimated] = useState<boolean>(false);
+
     useEffect(() => {
+        const sectionElement = sectionRef.current; // Store the ref value locally to avoid issues
+
         const observer = new IntersectionObserver(
             (entries) => {
                 entries.forEach((entry) => {
@@ -47,12 +50,14 @@ const Platform = () => {
             },
             { threshold: 0.5 }
         );
-        if (sectionRef.current) {
-            observer.observe(sectionRef.current);
+
+        if (sectionElement) {
+            observer.observe(sectionElement);
         }
+
         return () => {
-            if (sectionRef.current) {
-                observer.unobserve(sectionRef.current);
+            if (sectionElement) {
+                observer.unobserve(sectionElement);
             }
         };
     }, [hasAnimated]);
@@ -74,7 +79,7 @@ const Platform = () => {
                                     <p data-aos='zoom-in' className="font-inter font-normal text-white opacity-80 text-xl text-center max-w-[148px]">
                                         {item.text}
                                     </p>
-                                    <Image data-aos='zoom-in' src='/assets/images/webp/white-ellpise.webp' className='w-[98px] h-[88px] absolute bottom-0 right-0' alt='ellpise' width={196} height={174} priority />
+                                    <Image data-aos='zoom-in' src='/assets/images/webp/white-ellpise.webp' className='w-[98px] h-[88px] absolute bottom-0 right-0' alt='ellipse' width={196} height={174} priority />
                                 </div>
                             </div>
                         </Tilt>
