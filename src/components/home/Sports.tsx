@@ -33,7 +33,7 @@ const Sports = () => {
                             </SwiperSlide>
                         ))}
                     </Swiper>
-                    <div data-aos='zoom-in' className="max-w-[776px] mx-auto md:mt-5 lg:pt-0.5">
+                    <div data-aos='zoom-in' className="max-w-[723px] mx-auto md:mt-5 lg:pt-0.5">
                         <Swiper
                             onSwiper={setThumbsSwiper}
                             loop={true}

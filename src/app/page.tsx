@@ -26,7 +26,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="max-w-[1920px] mx-auto overflow-hidden relative">
+    <>
       <MainLayout />
       <Work />
       <Features />
@@ -39,6 +39,6 @@ export default function Home() {
       <Footer />
       <PreLoader />
       <ScrollToTop />
-    </div>
+    </>
   );
 }

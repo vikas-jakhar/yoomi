@@ -21,7 +21,7 @@ const Tracking = () => {
                         <p data-aos='zoom-in' className='font-plus font-semibold text-xl md:text-3xl xl:text-custom-lg mb-5 xl:mt-2'>Feedback</p>
                         {TRACKING_DATA.map((items, idx) => (
                             <div key={idx} className={`flex items-center gap-3.5 lg:max-w-[458px] w-full ${idx === 0 ? "pr-5" : "mt-2.5"}`}>
-                                <Icon className='m-1' iconName='tickIcon' />
+                                <Icon className='lg:m-1' iconName='tickIcon' />
                                 <PrimaryParagraph data={items.text} />
                             </div>
                         ))}

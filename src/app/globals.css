@@ -36,11 +36,11 @@
 }
 
 .mySwiper {
-    padding: 30px !important;
+    padding: 30px 15px !important;
 }
 
 .swiper-slide-thumb-active div {
-    transform: scale(1.25) !important;
+    transform: scale(1.15) !important;
 }
 
 ::-webkit-scrollbar {
@@ -50,4 +50,10 @@
 ::-webkit-scrollbar-thumb,
 ::-webkit-scrollbar-button {
     background-color: #076787;
+}
+
+@media (min-width:576px) {
+    .mySwiper {
+            padding: 30px !important;
+        }
 }

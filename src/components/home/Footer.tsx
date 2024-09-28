@@ -29,7 +29,7 @@ const Footer = () => {
                         ))}
                     </div>
                 </div>
-                <div className="ml-auto w-fit flex items-center gap-6 mt-16 mb-0.5">
+                <div className="sn:ml-auto mx-auto sm:mr-0 w-fit flex items-center gap-6 mt-16 mb-0.5">
                     <Link href='/' className='text-light-gray transition_slow hover:text-deep-blue font-inter font-normal text-sm'>Terms of Service</Link>
                     <Link href='/' className='text-light-gray transition_slow hover:text-deep-blue font-inter font-normal text-sm'>Privacy Policy</Link>
                     <Link href='/' className='text-light-gray transition_slow hover:text-deep-blue font-inter font-normal text-sm'>Cookies</Link>

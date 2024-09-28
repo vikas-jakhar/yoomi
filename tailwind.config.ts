@@ -47,15 +47,17 @@ const config: Config = {
       fontSize: {
         'custom-lg': "32px",
         'custom-xl': "40px",
-        'custom-2xl': "52px",
-        'custom-3xl': "60px",
+        'custom-2xl': "50px",
+        'custom-3xl': "52px",
+        'custom-4xl': "60px",
       },
       lineHeight: {
         'custom-sm': "32px",
         'custom-lg': "36px",
         'custom-xl': "44px",
-        'custom-2xl': "57px",
-        'custom-3xl': "66px",
+        'custom-2xl': "55px",
+        'custom-3xl': "57px",
+        'custom-4xl': "66px",
       }
     },
   },

@@ -24,12 +24,12 @@ const Hero: React.FC<HeroProps> = ({ isFormVisible, setFormVisible, formRef }) =
     };
 
     return (
-        <div className='pt-px pb-20'>
+        <div className='pt-px pb-20 relative'>
             <div className="container relative z-[1] pb-20 pt-8 sm:pt-16 lg:pt-24 mt-0.5">
-                <h2 className='font-plus max-w-[823px] w-full mx-auto text-center relative text-3xl sm:text-4xl md:text-custom-xl lg:text-custom-2xl md:leading-custom-xl lg:leading-custom-2xl font-extrabold'>
+                <h2 className='font-plus max-w-[823px] w-full mx-auto text-center relative text-3xl sm:text-4xl md:text-custom-xl lg:text-custom-3xl md:leading-custom-xl lg:leading-custom-3xl font-extrabold'>
                     Next Generation <span className='font-plus font-normal'>Patient Engagement and RTM Solution</span>
-                    <Image alt="logo" src='/assets/images/webp/star-icon.webp'
-                        className="pointer-events-none absolute bottom-0 hidden lg:flex lg:-right-2"
+                    <Image alt="star" src='/assets/images/webp/star-icon.webp'
+                        className="pointer-events-none w-14 h-14 absolute lg:bottom-0.5 sm:-right-4 hidden sm:flex -bottom-3.5 md:right-32 lg:flex lg:-right-5"
                         width={40}
                         height={40}
                         priority />
@@ -73,6 +73,8 @@ const Hero: React.FC<HeroProps> = ({ isFormVisible, setFormVisible, formRef }) =
                     </div>
                 )}
             </div>
+            <Image src='/assets/images/webp/tree-left.webp' className='w-full pointer-events-none absolute max-w-[133px] hidden md:flex left-3 lg:left-9 -bottom-12' width={133} height={254} alt='tree' priority />
+            <Image src='/assets/images/webp/tree-right.webp' className='w-full pointer-events-none absolute max-w-[68px] hidden md:flex right-3 lg:right-9 xl:right-[260px] -bottom-12' width={68} height={200} alt='tree' priority />
         </div>
     );
 };
