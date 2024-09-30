@@ -33,7 +33,7 @@ const Sports = () => {
                             </SwiperSlide>
                         ))}
                     </Swiper>
-                    <div data-aos='zoom-in' className="max-w-[723px] mx-auto md:mt-5 lg:pt-0.5">
+                    <div data-aos='zoom-in' className="max-w-[723px] mx-auto md:-ml-2.5 lg:ml-auto md:mt-5 lg:pt-0.5">
                         <Swiper
                             onSwiper={setThumbsSwiper}
                             loop={true}
@@ -49,8 +49,11 @@ const Sports = () => {
                                     spaceBetween: 15,
                                 },
                                 640: {
-                                    slidesPerView: 3.9,
+                                    slidesPerView: 2.9,
                                     spaceBetween: 22,
+                                },
+                                768: {
+                                    slidesPerView: 3.9,
                                 },
                             }}
                         >

@@ -18,16 +18,16 @@ const Features = () => {
                 <PrimaryHeading text='Explore Our ' data='Amazing Features' className='w-fit mx-auto text-center mt-2' />
                 <PrimaryParagraph className='max-w-[710px] mx-auto text-center mt-2.5' data='Yoomi is more than just a regular remote monitoring solution. Our product supports patients and providers through every step of the rehabilitation process' />
                 <div className="lg:mt-2 flex flex-col lg:flex-row pl-2 sm:pl-7 gap-5 justify-between items-center shadow-4xl rounded-[32px] bg-white w-full py-10 sm:py-[61px]">
-                    <div className="lg:max-w-[468px] w-full ml-0.5 pr-2 sm:pr-7 lg:pr-0">
-                        <p data-aos='zoom-in' className='text-deep-blue font-inter uppercase font-medium text-sm sm:text-base'>Library</p>
-                        <p data-aos='zoom-in' className='font-plus font-normal text-xl sm:text-custom-lg mt-2 mb-5'>Extensive Exercise <span className='font-plus font-semibold'>Library</span></p>
+                    <div className="lg:max-w-[468px] w-full lg:ml-0.5 pr-2 sm:pr-7 lg:pr-0">
+                        <p data-aos='zoom-in' className='text-deep-blue font-inter uppercase font-medium text-center lg:text-left text-sm sm:text-base'>Library</p>
+                        <p data-aos='zoom-in' className='font-plus font-normal text-xl text-center lg:text-left sm:text-custom-lg mt-2 mb-5'>Extensive Exercise <span className='font-plus font-semibold'>Library</span></p>
                         {LIBRARY_DATA.map((items, idx) => (
                             <div key={idx} className={`flex items-center gap-3.5 ${idx === 1 ? "mt-2.5 mb-2" : "lg:pr-5"}`}>
-                                <Icon className='m-1' iconName='tickIcon' />
+                                <Icon className='lg:m-1' iconName='tickIcon' />
                                 <PrimaryParagraph data={items.text} />
                             </div>
                         ))}
-                        <PrimaryButton className='sm:mt-9 mt-5 lg:px-[18px] lg:py-3.5' text='View the Library' />
+                        <PrimaryButton mainClass='w-fit mx-auto lg:mx-0' className='sm:mt-9 mt-5 lg:px-[18px] lg:py-3.5' text='View the Library' />
                     </div>
                     <div className="block sm:mt-10 mt-4 ml-auto pt-8 sm:pt-12 relative overflow-hidden lg:max-w-[569px] w-full">
                         <Swiper
