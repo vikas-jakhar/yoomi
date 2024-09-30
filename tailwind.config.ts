@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'hero-layer': "url('/assets/images/webp/hero-layer.webp')",
+        'hero-small': "url('/assets/images/webp/hero-small-view.webp')",
       },
       fontFamily: {
         'inter': "'Inter', sans-serif",
