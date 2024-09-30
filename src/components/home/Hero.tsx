@@ -75,6 +75,8 @@ const Hero: React.FC<HeroProps> = ({ isFormVisible, setFormVisible, formRef }) =
             </div>
             <Image src='/assets/images/webp/tree-left.webp' className='w-full pointer-events-none absolute max-w-[133px] hidden md:flex left-3 lg:left-9 -bottom-12' width={133} height={254} alt='tree' priority />
             <Image src='/assets/images/webp/tree-right.webp' className='w-full pointer-events-none absolute max-w-[68px] hidden md:flex right-3 lg:right-9 xl:right-[260px] -bottom-12' width={68} height={200} alt='tree' priority />
+            <Image src='/assets/images/webp/hero-right.webp' className='w-full pointer-events-none absolute max-w-[240px] hidden lg:flex max-h-[208px] right-0 top-1/4' width={258} height={208} alt='ellipse' priority />
+            <Image src='/assets/images/webp/hero-left.webp' className='w-full pointer-events-none absolute max-w-[150px] hidden lg:flex max-h-[208px] left-0 top-20' width={258} height={208} alt='ellipse' priority />
         </div>
     );
 };
