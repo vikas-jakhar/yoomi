@@ -59,6 +59,9 @@ const config: Config = {
         'custom-2xl': "55px",
         'custom-3xl': "57px",
         'custom-4xl': "66px",
+      },
+      backgroundSize: {
+        '100': "100% 100%"
       }
     },
   },
